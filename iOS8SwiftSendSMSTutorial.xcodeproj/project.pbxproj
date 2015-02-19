@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE898A891A95B75A00449895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A881A95B75A00449895 /* AppDelegate.swift */; };
+		BE898A8B1A95B75A00449895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A8A1A95B75A00449895 /* ViewController.swift */; };
+		BE898A8E1A95B75A00449895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE898A8C1A95B75A00449895 /* Main.storyboard */; };
+		BE898A901A95B75A00449895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE898A8F1A95B75A00449895 /* Images.xcassets */; };
+		BE898A931A95B75A00449895 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE898A911A95B75A00449895 /* LaunchScreen.xib */; };
+		BE898A9F1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A9E1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE898A991A95B75A00449895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE898A7B1A95B75A00449895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE898A821A95B75A00449895;
+			remoteInfo = iOS8SwiftSendSMSTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE898A831A95B75A00449895 /* iOS8SwiftSendSMSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SwiftSendSMSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE898A871A95B75A00449895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE898A881A95B75A00449895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE898A8A1A95B75A00449895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE898A8D1A95B75A00449895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE898A8F1A95B75A00449895 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE898A921A95B75A00449895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE898A981A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftSendSMSTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE898A9D1A95B75A00449895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE898A9E1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftSendSMSTutorialTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE898A801A95B75A00449895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A951A95B75A00449895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE898A7A1A95B75A00449895 = {
+			isa = PBXGroup;
+			children = (
+				BE898A851A95B75A00449895 /* iOS8SwiftSendSMSTutorial */,
+				BE898A9B1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests */,
+				BE898A841A95B75A00449895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE898A841A95B75A00449895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A831A95B75A00449895 /* iOS8SwiftSendSMSTutorial.app */,
+				BE898A981A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE898A851A95B75A00449895 /* iOS8SwiftSendSMSTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A881A95B75A00449895 /* AppDelegate.swift */,
+				BE898A8A1A95B75A00449895 /* ViewController.swift */,
+				BE898A8C1A95B75A00449895 /* Main.storyboard */,
+				BE898A8F1A95B75A00449895 /* Images.xcassets */,
+				BE898A911A95B75A00449895 /* LaunchScreen.xib */,
+				BE898A861A95B75A00449895 /* Supporting Files */,
+			);
+			path = iOS8SwiftSendSMSTutorial;
+			sourceTree = "<group>";
+		};
+		BE898A861A95B75A00449895 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A871A95B75A00449895 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE898A9B1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A9E1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift */,
+				BE898A9C1A95B75A00449895 /* Supporting Files */,
+			);
+			path = iOS8SwiftSendSMSTutorialTests;
+			sourceTree = "<group>";
+		};
+		BE898A9C1A95B75A00449895 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A9D1A95B75A00449895 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE898A821A95B75A00449895 /* iOS8SwiftSendSMSTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE898AA21A95B75A00449895 /* Build configuration list for PBXNativeTarget "iOS8SwiftSendSMSTutorial" */;
+			buildPhases = (
+				BE898A7F1A95B75A00449895 /* Sources */,
+				BE898A801A95B75A00449895 /* Frameworks */,
+				BE898A811A95B75A00449895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS8SwiftSendSMSTutorial;
+			productName = iOS8SwiftSendSMSTutorial;
+			productReference = BE898A831A95B75A00449895 /* iOS8SwiftSendSMSTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE898A971A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE898AA51A95B75A00449895 /* Build configuration list for PBXNativeTarget "iOS8SwiftSendSMSTutorialTests" */;
+			buildPhases = (
+				BE898A941A95B75A00449895 /* Sources */,
+				BE898A951A95B75A00449895 /* Frameworks */,
+				BE898A961A95B75A00449895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE898A9A1A95B75A00449895 /* PBXTargetDependency */,
+			);
+			name = iOS8SwiftSendSMSTutorialTests;
+			productName = iOS8SwiftSendSMSTutorialTests;
+			productReference = BE898A981A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE898A7B1A95B75A00449895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kenneth Wilcox";
+				TargetAttributes = {
+					BE898A821A95B75A00449895 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE898A971A95B75A00449895 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE898A821A95B75A00449895;
+					};
+				};
+			};
+			buildConfigurationList = BE898A7E1A95B75A00449895 /* Build configuration list for PBXProject "iOS8SwiftSendSMSTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE898A7A1A95B75A00449895;
+			productRefGroup = BE898A841A95B75A00449895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE898A821A95B75A00449895 /* iOS8SwiftSendSMSTutorial */,
+				BE898A971A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE898A811A95B75A00449895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A8E1A95B75A00449895 /* Main.storyboard in Resources */,
+				BE898A931A95B75A00449895 /* LaunchScreen.xib in Resources */,
+				BE898A901A95B75A00449895 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A961A95B75A00449895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE898A7F1A95B75A00449895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A8B1A95B75A00449895 /* ViewController.swift in Sources */,
+				BE898A891A95B75A00449895 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A941A95B75A00449895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A9F1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE898A9A1A95B75A00449895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE898A821A95B75A00449895 /* iOS8SwiftSendSMSTutorial */;
+			targetProxy = BE898A991A95B75A00449895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE898A8C1A95B75A00449895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE898A8D1A95B75A00449895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE898A911A95B75A00449895 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE898A921A95B75A00449895 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE898AA01A95B75A00449895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE898AA11A95B75A00449895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE898AA31A95B75A00449895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS8SwiftSendSMSTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE898AA41A95B75A00449895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS8SwiftSendSMSTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE898AA61A95B75A00449895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOS8SwiftSendSMSTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8SwiftSendSMSTutorial.app/iOS8SwiftSendSMSTutorial";
+			};
+			name = Debug;
+		};
+		BE898AA71A95B75A00449895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOS8SwiftSendSMSTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8SwiftSendSMSTutorial.app/iOS8SwiftSendSMSTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE898A7E1A95B75A00449895 /* Build configuration list for PBXProject "iOS8SwiftSendSMSTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898AA01A95B75A00449895 /* Debug */,
+				BE898AA11A95B75A00449895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE898AA21A95B75A00449895 /* Build configuration list for PBXNativeTarget "iOS8SwiftSendSMSTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898AA31A95B75A00449895 /* Debug */,
+				BE898AA41A95B75A00449895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE898AA51A95B75A00449895 /* Build configuration list for PBXNativeTarget "iOS8SwiftSendSMSTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898AA61A95B75A00449895 /* Debug */,
+				BE898AA71A95B75A00449895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE898A7B1A95B75A00449895 /* Project object */;
+}
