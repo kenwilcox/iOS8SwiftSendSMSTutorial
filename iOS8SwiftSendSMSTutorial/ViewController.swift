@@ -22,7 +22,12 @@ class ViewController: UIViewController {
   }
   
   @IBAction func sendMessage(sender: UIButton) {
+    var messageVC = MFMessageComposeViewController()
+    messageVC.body = "For a good time call!"
+    messageVC.recipients = ["4088675309", "6698675309"]
+    messageVC.messageComposeDelegate = self
     
+    self.presentViewController(messageVC, animated: true, completion: nil)
   }
   
 }
