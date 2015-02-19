@@ -13,6 +13,7 @@
 		BE898A901A95B75A00449895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE898A8F1A95B75A00449895 /* Images.xcassets */; };
 		BE898A931A95B75A00449895 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE898A911A95B75A00449895 /* LaunchScreen.xib */; };
 		BE898A9F1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A9E1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift */; };
+		BE898AAA1A95B91400449895 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE898AA81A95B91400449895 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE898A981A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftSendSMSTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE898A9D1A95B75A00449895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE898A9E1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftSendSMSTutorialTests.swift; sourceTree = "<group>"; };
+		BE898AA81A95B91400449895 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE898AA91A95B91400449895 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE898A7A1A95B75A00449895 = {
 			isa = PBXGroup;
 			children = (
+				BE898AA81A95B91400449895 /* LICENSE */,
+				BE898AA91A95B91400449895 /* README.md */,
 				BE898A851A95B75A00449895 /* iOS8SwiftSendSMSTutorial */,
 				BE898A9B1A95B75A00449895 /* iOS8SwiftSendSMSTutorialTests */,
 				BE898A841A95B75A00449895 /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE898A8E1A95B75A00449895 /* Main.storyboard in Resources */,
 				BE898A931A95B75A00449895 /* LaunchScreen.xib in Resources */,
+				BE898AAA1A95B91400449895 /* LICENSE in Resources */,
 				BE898A901A95B75A00449895 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
